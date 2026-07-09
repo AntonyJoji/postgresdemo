@@ -39,4 +39,4 @@ def update_user(user_id, new_username):
 
 
 # Example
-update_user(2, "arun")
+# update_user(2, "arun")

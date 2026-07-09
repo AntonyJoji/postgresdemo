@@ -34,4 +34,4 @@ def delete_user(user_id):
 
 
 # Example
-delete_user(1)
+# delete_user(1)

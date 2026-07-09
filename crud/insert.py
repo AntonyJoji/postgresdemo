@@ -24,4 +24,4 @@ def create_user(username):
         finally:
             conn.close()
 
-create_user("2,arun")
+# create_user("2,arun")
