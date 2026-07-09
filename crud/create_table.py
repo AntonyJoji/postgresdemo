@@ -7,7 +7,7 @@ def create_users_table():
     conn = get_db_connection()
     if conn:
         try:
-            cursor = conn.cursor()#            # Define the CREATE TABLE query
+            cursor = conn.cursor()
             create_table_query = """
             CREATE TABLE IF NOT EXISTS users (
                 id SERIAL PRIMARY KEY,
@@ -22,5 +22,3 @@ def create_users_table():
             print(f"Error creating users table: {e}")
         finally:
             conn.close()
-
-create_users_table()

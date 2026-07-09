@@ -38,5 +38,5 @@ def update_user(user_id, new_username):
             conn.close()
 
 
-# Example
-# update_user(2, "arun")
+if __name__ == "__main__":
+    update_user(1, "Ansel")

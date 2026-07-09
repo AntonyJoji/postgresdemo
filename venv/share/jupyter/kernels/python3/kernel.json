@@ -1,0 +1,16 @@
+{
+  "argv": [
+    "c:/Users/anton/Documents/postgresdemo/venv/python.exe",
+    "-m",
+    "ipykernel_launcher",
+    "-f",
+    "{connection_file}"
+  ],
+  "display_name": "Python 3 (ipykernel)",
+  "language": "python",
+  "metadata": {
+    "debugger": true,
+    "supported_encryption": "curve"
+  },
+  "kernel_protocol_version": "5.5"
+}

@@ -33,5 +33,5 @@ def delete_user(user_id):
             conn.close()
 
 
-# Example
-# delete_user(1)
+if __name__ == "__main__":
+    delete_user(1)
